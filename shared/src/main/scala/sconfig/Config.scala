@@ -1,5 +1,4 @@
 //     Project: sconfig
-//      Author: jokade <jkspam@karchedon.de>
 // Description: Defines a Typesafe config compatible trait for configuration maps
 //
 package sconfig
