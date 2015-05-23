@@ -25,7 +25,7 @@ lazy val sconfig = crossProject.in(file(".")).
   ).
   jvmSettings(
     libraryDependencies ++= Seq(
-      "com.typesafe" % "config" % "1.3.+"
+      "com.typesafe" % "config" % "1.3.0"
     )
   ).
   jsSettings(
