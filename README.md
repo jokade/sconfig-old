@@ -11,12 +11,12 @@ Add one of the following entries to your `build.sbt` (depending on your target):
 
 **Scala/JVM**:
 ```scala
-libraryDependencies += "biz.enef" %% "sconfig" % "0.1-SNAPSHOT"
+libraryDependencies += "biz.enef" %% "sconfig" % "0.1.0"
 ```
 
 **Scala.js**:
 ```scala
-libraryDependencies += "biz.enef" %%% "sconfig" % "0.1-SNAPSHOT"
+libraryDependencies += "biz.enef" %%% "sconfig" % "0.1.0"
 ```
 
 
