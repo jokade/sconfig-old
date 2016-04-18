@@ -1,16 +1,14 @@
-import SonatypeKeys._
 
 lazy val commonSettings = Seq(
   organization := "biz.enef",
-  version := "0.1-SNAPSHOT",
-  scalaVersion := "2.11.6",
+  version := "0.1.0",
+  scalaVersion := "2.11.8",
   scalacOptions ++= Seq("-deprecation","-unchecked","-feature","-Xlint")
 )
 
 lazy val root = project.in(file(".")).
   aggregate(sconfigJVM,sconfigJS).
   settings(commonSettings:_*).
-  settings(sonatypeSettings: _*).
   settings(
     name := "sconfig",
     publish := {},

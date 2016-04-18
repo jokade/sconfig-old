@@ -1,0 +1,8 @@
+sconfig
+-------
+
+This software is licensed under the MIT license.
+
+Portions of the API are derived from the Typesafe config project
+(https://github.com/typesafehub/config), licensed under the Apache License,
+Version 2.0, and copyright by Typesafe Inc.
